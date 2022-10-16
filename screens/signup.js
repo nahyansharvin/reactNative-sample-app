@@ -28,7 +28,7 @@ export default function Signup() {
                     <Text>Retype Password</Text>
                     <TextInput
                         style={globalStyles.input}
-                        placeholder="Enter your password"
+                        placeholder="Retype your password"
                     />
                 </View>
             </View>
@@ -45,10 +45,10 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: "center",
+        justifyContent: "space-around",
     },
     tileWrapper: {
         marginTop: 100,
-        flex: 1,
         justifyContent: "center",
         alignItems: "center",
     },
@@ -58,15 +58,12 @@ const styles = StyleSheet.create({
         color: "#0b1f3d",
     },
     loginFormWrapper: {
-        // backgroundColor: 'coral',
-        flex: 1,
         alignItems: "flex-start",
     },
     inputWrapper: {
         margin: 10,
     },
     buttonWrapper: {
-        flex: 1,
         justifyContent: "center",
         margin: 50,
     }

@@ -28,6 +28,6 @@ export const globalStyles = StyleSheet.create({
         height: 40,
         width: 300,
         borderBottomWidth: 1,
-        borderBottomColor: '#777',
+        borderBottomColor: '#cfcfd1',
     } 
 })
