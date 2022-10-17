@@ -12,6 +12,18 @@ export const globalStyles = StyleSheet.create({
         height: 50,
         width: 250,
     },
+    buttonSecondary: {
+        margin: 10,
+        alignItems: "center",
+        justifyContent: "center",
+        // backgroundColor: "#fff",
+        border: 1,
+        borderColor: "#2c5ea8",
+        padding: 10,
+        borderRadius: 50,
+        height: 50,
+        width: 250,
+    },
     buttonText: {
         color: "#fff",
         fontSize: 20,
