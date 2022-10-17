@@ -14,7 +14,7 @@ export default function Welcome() {
                     <Text style={globalStyles.buttonText} >Login</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={globalStyles.buttonSecondary}>
-                    <Text style={globalStyles.buttonText} >Signup</Text>
+                    <Text style={globalStyles.buttonTextSecondary} >Signup</Text>
                 </TouchableOpacity>
             </View>
         </View>
